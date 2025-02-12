@@ -46,6 +46,11 @@
     text-align: center;
   }
 
+  .back{
+    background-color: white;
+    border: 1px solid black;
+  }
+
   .section-description{
     font-size: 18px;
     color: #757575;
@@ -63,14 +68,13 @@
 /* Nav Styles */
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
 }
 
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    margin-left: 10%;
 }
 
 nav ul{
@@ -95,7 +99,7 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+  
 }
 
 .bgg{
@@ -174,6 +178,10 @@ main section{
     color: #757575;
 }
 
+.bg{
+    border:1px solid black;
+}
+
 
 .item-description{
     font-weight: 600;
@@ -228,6 +236,11 @@ main section{
 
 .resume-column-title{
     font-size: 30px;
+}
+
+.but{
+    margin-top: 50px;
+    margin-left: calc(50% - 100px);
 }
 
 /* footer */
@@ -296,10 +309,15 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     nav{
         padding-right: 0px;
         margin-right: 0px;
+        width: cover;
     }
 
-    .text-cen{
-        margin-left: 170px;
+    .header{
+        margin-bottom: 80px;
+    }
+
+    .but{
+        align-content: center;
     }    
 
     .footer-column{
@@ -313,5 +331,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     nav{
         margin: 0px 0px;
         padding: 0px;
+    }
+
+    body{
+        width: cover;
     }
 }
